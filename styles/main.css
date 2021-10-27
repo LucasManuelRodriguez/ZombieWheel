@@ -1,0 +1,10 @@
+.AddCoderInput{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: none;
+    border-bottom: 3px solid black;
+    background-color: #95c48e;
+
+}
