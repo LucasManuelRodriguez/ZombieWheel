@@ -1,5 +1,5 @@
-let ZombieDataArray = []
+export let zombieDataArray = [];
 
-let CoderDataArray = []
+export let coderDataArray = [];
 
 
