@@ -1,8 +1,8 @@
 //import { addZombieArray } from "./AddZombieToArray.js";
 //import { createCard } from "./CreateCard.js";
 //import {zombieDataArray} from "./ZombieData.js";
-let zombieDataArray = [];
-let coderDataArray = [];
+zombieDataArray = [];
+coderDataArray = [];
 
 
 function addZombieArray() {
@@ -11,4 +11,4 @@ function addZombieArray() {
     console.log(zombieDataArray)
 }
 
-addZombieArray()
+
