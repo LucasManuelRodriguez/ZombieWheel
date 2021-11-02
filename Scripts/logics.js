@@ -9,16 +9,20 @@ export function addZombieToArray() {
     nameZombie.value=null;
 }
 
-//funcion antidoto
+//funcion antidoto. 
 
 export function saveCoder(){
-    console.log(zombieDataArray);
+    //elige random un index del array indicado.
     let randomZombie=Math.floor(Math.random()*zombieDataArray.length)
+    //el index del array zombie elegido se pushea al array coders.
     coderDataArray.push(zombieDataArray[randomZombie]);
-    console.log(coderDataArray);
+    //con el metodo splice, eliminamos el elemento elegido del array zombie.
     zombieDataArray.splice(randomZombie,1);
+    //nos posicionamos en html zombieList y lo borramos.
     document.getElementById("zombieList").innerHTML ="";
+    //volvemos a imprimir(crear las cards del array modificado)sin el elemento elegido antes.
     renderArray(zombieDataArray,"zombieList");
+    //hacemos lo mismo de arriba.
     document.getElementById("codersList").innerHTML ="";
     renderArray(coderDataArray,"codersList");
 }

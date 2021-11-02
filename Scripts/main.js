@@ -12,8 +12,12 @@ addZombieButton.addEventListener("click", addZombieToArray);
 let switchPageButton = document.getElementById("nextPage");
 switchPageButton.addEventListener("click",nextPage);
 
+//vamos a seleccionar aleatoriamente un zombie. (lo elimina del array y lo pasa a coder)
+
 let antidote = document.getElementById("antidote");
 antidote.addEventListener("click",saveCoder);
+
+//borrar todo y volver al main1
 
 let resetButton = document.getElementById('reset');
 
