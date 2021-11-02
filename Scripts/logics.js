@@ -16,6 +16,8 @@ export function saveCoder(){
     coderDataArray.push(zombieDataArray[randomZombie]);
     console.log(coderDataArray);
     zombieDataArray.splice(randomZombie,1);
+    document.getElementById("zombieList").innerHTML ="";
     renderArray(zombieDataArray,"zombieList");
+    document.getElementById("codersList").innerHTML ="";
     renderArray(coderDataArray,"codersList");
 }
