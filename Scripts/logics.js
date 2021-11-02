@@ -5,7 +5,7 @@ import {zombieDataArray,coderDataArray} from "./ZombieData.js";
 export function addZombieToArray() {
     let nameZombie = document.getElementById("AddZombieInput");
     zombieDataArray.push(nameZombie.value);
-    //console.log(zombieDataArray);
+    nameZombie.value=null;
 }
 
 //funcion antidoto
