@@ -1,9 +1,14 @@
-import { addZombieArray } from "./AddZombieToArray.js";
-import { createCard } from "./CreateCard.js";
 import {zombieDataArray} from "./ZombieData.js";
-import {switchPage} from "./SwitchPage.js";
-import {saveCoder} from "./antidoto.js";
-import {zombieNameArray} from "./antidoto.js";
+import { renderArray,switchPage } from "./display.js";
+import { addZombieToArray,saveCoder } from "./logics.js";
 
-console.log(zombieNameArray)
-saveCoder()
+let addZombieButton = document.getElementById("buttonText");
+addZombieButton.addEventListener("click", addZombieToArray);
+
+console.log(zombieDataArray);
+
+let switchPageButton = document.getElementById("nextPage");
+switchPageButton.addEventListener("click",switchPage);
+
+let antidote = document.getElementById("antidote");
+antidote.addEventListener("click",saveCoder);
