@@ -1,6 +1,7 @@
 import { renderArray } from "./display.js";
 import {zombieDataArray,coderDataArray} from "./ZombieData.js";
 
+// Función para hacer un push del valor del input al array de zombie 
 
 export function addZombieToArray() {
     let nameZombie = document.getElementById("AddZombieInput");

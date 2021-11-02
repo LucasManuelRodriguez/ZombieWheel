@@ -16,6 +16,7 @@ export function createCard(id,name)  {
                                 </li>`
 }
 
+// Cuando ejecutamos la función switchPage mediante el método toogle para intercambiar las clases displayon/displayoff del HTML
 
 export function switchPage (){
     let main1 = document.getElementById("main1");
@@ -27,6 +28,7 @@ export function switchPage (){
     main2.classList.toggle("displayon");
 }
 
+// Mediante el switchPage
 export function nextPage() {
     switchPage();
     renderArray(zombieDataArray,"zombieList");
