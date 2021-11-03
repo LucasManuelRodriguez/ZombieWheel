@@ -18,14 +18,14 @@ Se realizó un proyecto denominado "ZombieWheel", es aplicación web que te perm
 - Foco en UX.
 - Mobile first.
 
-##Extras:
-✔Incluir una funcionalidad para que el usuario pueda añadir y quitar coders en el frontend.
-✔Incluir un sistema de persistencia para mantener a los coders sacrificados inactivos. Usando: LocalStorage.
+## Extras:
+✔ Incluir una funcionalidad para que el usuario pueda añadir y quitar coders en el frontend.
+✔ Incluir un sistema de persistencia para mantener a los coders sacrificados inactivos. Usando: LocalStorage.
 
-##Roles🎯
-*Scrum master: Carmen Rubio
-*Product owner: Claudia Calero
-*Developers team: Lucar Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
+## Roles🎯
+* Scrum master: Carmen Rubio
+* Product owner: Claudia Calero
+* Developers team: Lucar Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
 
 
 ## Repositorio de GitHub 🚀
