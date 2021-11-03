@@ -11,7 +11,7 @@ export function createCard(id,name)  {
         imgClassCard="./assets/partida/zoombie/lengua-fuera.png"
     }
 
-    boxZombieCards.innerHTML+= `<li>
+    boxZombieCards.innerHTML+= `<li class="cardBox">
                                     <img class="imgCards" src="${imgClassCard}" alt="zombie">
                                     <p class="nameZombie">${name}</p>
                                 </li>`
