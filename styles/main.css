@@ -6,31 +6,70 @@
     display: none;
 }
 
-#AddCoderInput{
-    width: 350px;
+#AddZombieInput{
+    width: 320px;
     display: flex;
     align-content: center;
     border: none;
-    border-bottom: 3px solid black;
+    border-bottom: 5px solid black;
     background-color: #95c48e;
     text-align: center;
+    outline-color: transparent; 
+    outline-style: none;
+
+    
 }
 
-#butonText {
+#buttonText {
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#AddZombieInput{
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+}
+
+
+#buttonText {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+
+}
+
+#Textboxbutton{
+    width: 100%;
+    height: auto;
     display: flex;
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
-    background-color: beige;
     justify-content: center;
+
 }
 
-main {
+#startbtn{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.main1 {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+  
 }
+
+
+
+.imgstart{
+    
+    width: 100%;
+    height: 50vh;
+    }
+
 
 .list{
     width: auto;
@@ -46,3 +85,5 @@ main {
     width: 60px;
     height: 20vh;
 }
+
+
