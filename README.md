@@ -1,29 +1,46 @@
 # ZombieWheel
-# CRADA📌
+
 ## Introducción 🍀
 
-Se realizó un proyecto denominado "", es __. Su objetivo es__.
+Se realizó un proyecto denominado "ZombieWheel", es aplicación web que te permite introducir nombres de "zombies" y mediante un antidoto convertirlos en "coders" escogidos de un modo aleatorio. 
+> 
+
+> El proyecto se debe realizar en equipos Scrum en 2 sprints de 1 semana.
+>
 
 ### Objetivos de la práctica🔩:
 
-  1. Poner en practica conceptos de CSS y HTML.
-  2. Usar visual studio code
-  3. Manipulación de GIT y GitHub
-  2. Aprender a manipular herramientas de organización como TRELLO y otras herramientas de disseño como Miró y Figma.
-  3. Promover el trabajo en equipo y la metodología agile.
+- Usar HTML, JS y CSS / SASS (recomendado)
+- Código modular.
+- Marcado semántico.
+- Clases CSS reutilizables.
+- Código Limpio.
+- Foco en UX.
+- Mobile first.
 
-## Comenzando 🚀
+##Extras:
+- ✔Incluir una funcionalidad para que el usuario pueda añadir y quitar coders en el frontend.
+- ✔Incluir un sistema de persistencia para mantener a los coders sacrificados inactivos. Usando: LocalStorage.
+
+##Roles🎯
+*Scrum master: Carmen Rubio
+*Product owner: Claudia Calero
+*Developers team: Lucar Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
+
+
+## Repositorio de GitHub 🚀
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu ordenador local para propósitos de desarrollo y pruebas:
+https://github.com/ItCrowdZombie/ZombieWheel.git
+Abre la terminal y ejecuta: git clone para descargar el proyecto.
 
-Abre la terminal y ejecuta: git clone https://github.com/SolaRita/CRADA.git para descargar el proyecto.
-## Dependencias 🔧
-Para el proyecto se utiliza CSS y Html, instalados.
 
 ## Construido con 🛠️
 Tecnologías:
 
 * HTML
 * CSS
+* Java Script
+
 
 
 ## Autores ✒️
@@ -31,5 +48,5 @@ Tecnologías:
 ## Gratitud 🎁
 * Comenta a otros sobre este proyecto 📢 .
 * Apoya mis proyectos 🤓 .
-* ⌨️ con ❤️ por belcar-ceci 😊 abde7h🙂 SolaRita🙂 David🙂
+* ⌨️ con ❤️ por Lucar Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
 
