@@ -25,7 +25,7 @@ Se realizó un proyecto denominado "ZombieWheel", es aplicación web que te perm
 ## Roles🎯
 * Scrum master: Carmen Rubio
 * Product owner: Claudia Calero
-* Developers team: Lucar Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
+* Developers team: Lucas Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
 
 
 ## Repositorio de GitHub 🚀
@@ -45,5 +45,5 @@ Abre la terminal y ejecuta: git clone para descargar el proyecto.
 ## Gratitud 🎁
 * Comenta a otros sobre este proyecto 📢 .
 * Apoya mis proyectos 🤓 .
-* ⌨️ con ❤️ por Lucar Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
+* ⌨️ con ❤️ por Lucas Rodríguez, Facundo Ramallo, Melisa Manoni, Carmen Rubio, Clàudia Calero y Rita Solà. 
 
