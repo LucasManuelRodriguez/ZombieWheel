@@ -7,6 +7,13 @@
     align-items: center;
 }
 
+#Textboxbutton{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
 #AddZombieInput{
     width: 320px;
     display: flex;
@@ -17,44 +24,33 @@
     text-align: center;
     outline-color: transparent; 
     outline-style: none;
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
 }
 
 #buttonText {
     width: 40px;
     height: 30px;
     margin-left: 10px;
-}
-
-#AddZombieInput{
-    font-family: 'Cinzel', serif;
-    font-size: 17px;
-}
-
-
-#buttonText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-family: 'Cinzel', serif;
     font-size: 14px;
-
-}
-
-#Textboxbutton{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-
 }
 
 #startbtn{
-    width: 100px;
-    height: 100px;
-    
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgstart{
-    
-    width: 100%;
-    height: 50vh;
+    width: 30% !important;
+    height: 30% !important;
     }
 
 
