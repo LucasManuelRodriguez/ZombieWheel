@@ -45,7 +45,15 @@
     height: 50%;
     display: flex;
     justify-content: center;
+}
+.main2{
+    width:inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 
 .imgstart{
@@ -55,14 +63,46 @@
 
 
 .list{
-    width: auto;
+    width: 100%;
     height: 25%;
-    display:flex ;
+    display: flex;
     flex-direction: row;
+    overflow-x: scroll;
 }
+.zombieImg{
+    display: inherit;
+    flex-direction: inherit;
+    
+}
+.coderImg{
+    display: inherit;
+    flex-direction: inherit;
+   
+}
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    height: inherit;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+.coderImg .cardBox{
+    background-color: #ECDBBA;
+}
+.zombieImg .cardBox{
+    background-color: #CD4345;
+}
+
 .imgCards{
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
+}
+.nameZombie{
+    font-family: 'Courier New', Courier, monospace;
+
 }
 .antidote{
     width: 60px;
