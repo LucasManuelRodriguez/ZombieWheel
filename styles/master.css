@@ -8,6 +8,7 @@
 body {
   max-width: 430px;
   height: auto;
+  background-color: #93C28E;
 }
 
 header {
@@ -28,5 +29,5 @@ main {
 footer {
   height: 10vh;
   width: 100%;
-  background-color: rgba(50, 50, 53, 0.603);
+  
 }
