@@ -1,36 +1,58 @@
-.displayon {
-    display: inherit;
-}
-
-.displayoff{
-    display: none;
-}
-
-#AddCoderInput{
-    width: 350px;
-    display: flex;
-    align-content: center;
-    border: none;
-    border-bottom: 3px solid black;
-    background-color: #95c48e;
-    text-align: center;
-}
-
-#butonText {
-    display: flex;
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
-    background-color: beige;
-    justify-content: center;
-}
-
-main {
+.main1 {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
+
+#Textboxbutton{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#AddZombieInput{
+    width: 320px;
+    display: flex;
+    align-content: center;
+    border: none;
+    border-bottom: 5px solid black;
+    background-color: #95c48e;
+    text-align: center;
+    outline-color: transparent; 
+    outline-style: none;
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+}
+
+#buttonText {
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+}
+
+#startbtn{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgstart{
+    width: 30% !important;
+    height: 30% !important;
+    }
+
 
 .list{
     width: auto;
@@ -46,3 +68,12 @@ main {
     width: 60px;
     height: 20vh;
 }
+
+.displayon {
+    display: inherit;
+}
+
+.displayoff{
+    display: none;
+}
+
