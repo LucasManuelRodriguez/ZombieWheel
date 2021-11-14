@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <Header/>
+    <Main/>
+    <Footer/>
   </div>
 </template>
-
 <script>
-
-import  Header  from './components/Header.vue'
+import Header from './components/Header.vue'
+import Main from './components/Main.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Main,
+    Footer
   }
 }
 </script>
@@ -37,7 +41,6 @@ header {
 main {
   width: 100%;
   height: 70%;
-  background-color: #93C28E;
   display: flex;
   flex-direction: column;
   align-items: center;

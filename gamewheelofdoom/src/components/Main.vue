@@ -1,3 +1,22 @@
+<template>
+    <main>
+        <section class="main1 displayon" id="main1">
+            <section id="Textboxbutton">     
+                <input type="text" id="AddZombieInput" placeholder="Choose the Infected">
+                <button type="button" id="buttonText">+</button>
+            </section>      
+             <div id="startbtn">
+                <img id="nextPage" class="imgstart" src="../assets/radiacion.png" alt="Empezar partida">
+             </div>
+        </section>
+    </main>
+</template>
+<script>
+export default {
+    name:'Main',
+}
+</script>
+<style scoped>
 .main1 {
     width: 100%;
     height: 100%;
@@ -5,6 +24,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
 }
 
 #Textboxbutton{
@@ -12,6 +32,7 @@
     height: auto;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 #AddZombieInput{
@@ -19,8 +40,8 @@
     display: flex;
     align-content: center;
     border: none;
-    border-bottom: 5px solid black;
-    background-color: #95c48e;
+    border-bottom: 5px solid white;
+    background-color: white;
     text-align: center;
     outline-color: transparent; 
     outline-style: none;
@@ -39,8 +60,8 @@
     font-size: 50px;
     border-radius: 20px;
     background-color: black;
-    color: #95c48e;
-
+    color: white;
+    cursor: pointer;
 }
 
 #startbtn{
@@ -48,6 +69,7 @@
     height: 80px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .main2{
@@ -63,6 +85,7 @@
 .imgstart{
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
 
 
@@ -121,3 +144,4 @@
     display: none;
 }
 
+</style>
